@@ -1,0 +1,15 @@
+[class*="noUi-tooltip"] {
+    display: none !important;
+}
+  
+/* Show during interaction */
+.noUi-active [class*="noUi-tooltip"],
+.noUi-handle:focus [class*="noUi-tooltip"] {
+    display: block !important;
+}
+  
+.noUi-connect {
+    background: #4ade80 !important;
+}
+  
+

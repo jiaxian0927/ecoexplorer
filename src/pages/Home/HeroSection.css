@@ -1,0 +1,19 @@
+@keyframes cardAnimation {
+    0% {
+        transform: translateY(150px);
+        rotate: -20deg;
+    }
+    40%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+        rotate: -20deg;
+    }
+    70%{
+        transform: translateX(0px);
+        rotate: -5deg;
+    }
+    100%{
+        transform: translateX(var(--translate-distance));
+        rotate: var(--rotate-degree);
+    }
+}
